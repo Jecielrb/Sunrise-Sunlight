@@ -54,11 +54,12 @@ To achieve #3, you will need to store the request parameters, timestamp and resp
 
 ## 🛠 How to run
 
-**Github Cloning Way**
+**Github Cloning Method**
 
 Pre-requisites (Ensure the following is installed in your machine, along with environment variables required)
    - Java 
    - Maven
+   - MongoDB (For viewing api history)
 
 Step 1
 - Clone the repository on your machine
@@ -87,5 +88,9 @@ Example inputs
    - ``` http://localhost:8080/jeciel/kelvin?latitude=36.7201600&longitude=-4.4203400 ```
    - ``` http://localhost:8080/jeciel/poem?latitude=36.7201600&longitude=-4.4203400 ```
    - ``` http://localhost:8080/jeciel/history ```
+
+**NOTES**
+- OpenAI runs on model gpt3.5-turbo, I put my own API Key as the given API Key stopped working all of the sudden
+- I have included a dockerfile in an attempt to dockerize the application. (MongoDB connection does not work currently, as it is a work in progress from me)
 
 ✨ **Good luck!** ✨
