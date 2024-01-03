@@ -55,19 +55,24 @@ To achieve #3, you will need to store the request parameters, timestamp and resp
 ## 🛠 How to run
 
 **Github Cloning Way**
+
 Pre-requisites (Ensure the following is installed in your machine, along with environment variables required)
    - Java 
    - Maven
+
 Step 1
 - Clone the repository on your machine
-     - git clone https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel.git
+     - ``` git clone https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel.git ```
+       
 Step 2
 - Navigate to the project directory in your local terminal (eg: cmd, powershell)
-     - eg. cd C:\Users\<-project directory->
+     - eg. ``` cd C:\Users\<-project directory-> ```
+
 Step 3
 - Run the following maven commands
-     -mvn clean install
-     -mvn spring-boot:run
+     - ``` mvn clean install ```
+     - ``` mvn spring-boot:run ```
+
 Step 4
 - The application should be running now, and API is available to test. The API runs on localhost on server port 8080 (https://localhost:8080)
 - Ways to test API is by running it on your local browser or a preferred API platform (eg. Postman)
