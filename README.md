@@ -53,6 +53,6 @@ To achieve #3, you will need to store the request parameters, timestamp and resp
 - Any creative ideas or enhancements you come up with
 
 ## 🛠 How to run
-TODO
+*Documentation in Progress*
 
 ✨ **Good luck!** ✨
