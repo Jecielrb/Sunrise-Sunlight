@@ -83,4 +83,9 @@ Step 5
    - /jeciel/poem
    - /jeciel/history
 
+Example inputs
+   - ``` http://localhost:8080/jeciel/kelvin?latitude=36.7201600&longitude=-4.4203400 ```
+   - ``` http://localhost:8080/jeciel/poem?latitude=36.7201600&longitude=-4.4203400 ```
+   - ``` http://localhost:8080/jeciel/history ```
+
 ✨ **Good luck!** ✨
