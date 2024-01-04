@@ -90,7 +90,7 @@ Example inputs
    - ``` http://localhost:8080/jeciel/history ```
 
 **NOTES**
-- OpenAI runs on model gpt3.5-turbo, I put my own API Key as the given API Key stopped working all of the sudden
+- OpenAI runs on model gpt3.5-turbo, updated API Key into new one (old one was revoked)
 - I have included a dockerfile in an attempt to dockerize the application. (MongoDB connection does not work currently, as it is a work in progress from me)
 
 ✨ **Good luck!** ✨
