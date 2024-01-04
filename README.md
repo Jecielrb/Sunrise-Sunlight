@@ -64,11 +64,12 @@ Pre-requisites (Ensure the following is installed in your machine, along with en
    - Postman (or any API platforms) -*optional but preferred*-
 
 Step 1
-- Clone the repository on your machine
+- Clone the repository from your local terminal (eg: cmd, powershell) inside any folder
+     - ``` cd C:\Users\Project ```
      - ``` git clone https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel.git ```
        
 Step 2
-- Navigate to the project directory in your local terminal (eg: cmd, powershell)
+- Navigate to the project directory 
      - eg. ``` cd C:\Users\Projects\Coding-Challenge-Jeciel ```
 
 Step 3
@@ -77,7 +78,7 @@ Step 3
      - ``` mvn spring-boot:run ```
 
 Step 4
-- The application should be running now, and API is available to test. The API runs on localhost on server port 8080 (https://localhost:8080)
+- The application should be running now, and API is available to test. The API runs on your localhost on server port 8080 (http://localhost:8080)
 - Ways to test API is by running it on your local web browser (eg. Google, Firefox) or a preferred API platform (eg. Postman)
 
 Step 5
@@ -100,6 +101,6 @@ Example inputs and outputs (using Postman)
 **NOTES**
 - OpenAI runs on model gpt3.5-turbo, updated API Key into new one (old one was revoked)
 - I have included a dockerfile in an attempt to dockerize the application. (MongoDB connection does not work currently, as it is a work in progress from me)
-- Application does not contain any front-end, so running on API platforms is preferred 
+- Application does not contain any front-end, so testing on API platforms is preferred 
 
 ✨ **Thank you!** ✨
