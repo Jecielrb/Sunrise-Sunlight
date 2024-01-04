@@ -57,9 +57,10 @@ To achieve #3, you will need to store the request parameters, timestamp and resp
 **Github Cloning Method**
 
 Pre-requisites (Ensure the following is installed in your machine, along with environment variables required)
-   - Java 
-   - Maven
+   - Java (earlier version is preferred)
+   - Maven (earlier version is preferred)
    - MongoDB (For viewing api history)
+   - Git
 
 Step 1
 - Clone the repository on your machine
@@ -84,7 +85,7 @@ Step 5
    - /jeciel/poem
    - /jeciel/history
 
-Example inputs
+Example inputs and outputs 
    - ``` http://localhost:8080/jeciel/kelvin?latitude=36.7201600&longitude=-4.4203400 ```
    - ``` http://localhost:8080/jeciel/poem?latitude=36.7201600&longitude=-4.4203400 ```
    - ``` http://localhost:8080/jeciel/history ```
