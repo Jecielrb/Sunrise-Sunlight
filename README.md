@@ -101,6 +101,19 @@ Example inputs and outputs (using Postman)
 **NOTES**
 - OpenAI runs on model gpt3.5-turbo, updated API Key into new one (old one was revoked)
 - I have included a dockerfile in an attempt to dockerize the application. (MongoDB connection does not work currently, as it is a work in progress from me)
-- Application does not contain any front-end, so testing on API platforms is preferred 
+- Application does not contain any front-end, so testing on API platforms is preferred
+
+## :tulip: About the project
+
+- Project Build
+   - Java Version : 17
+   - Maven Project
+- Dependencies
+   - Spring Web
+   - Spring Data MongoDB
+   - Spring Boot DevTools
+- Libraries
+   - Lombok
+
 
 ✨ **Thank you!** ✨
