@@ -69,7 +69,7 @@ Step 1
        
 Step 2
 - Navigate to the project directory in your local terminal (eg: cmd, powershell)
-     - eg. ``` cd C:\Users\<-project directory-> ```
+     - eg. ``` cd C:\Users\Projects\Coding-Challenge-Jeciel ```
 
 Step 3
 - Run the following maven commands
