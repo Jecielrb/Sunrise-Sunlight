@@ -57,17 +57,20 @@ To achieve #3, you will need to store the request parameters, timestamp and resp
 **Github Cloning Method**
 
 Pre-requisites (Ensure the following is installed in your machine, along with environment variables required)
-   - Java 
-   - Maven
+   - Java (earlier version is preferred)
+   - Maven (earlier version is preferred)
    - MongoDB (For viewing api history)
+   - Git
+   - Postman (or any API platforms) -*optional but preferred*-
 
 Step 1
-- Clone the repository on your machine
+- Clone the repository from your local terminal (eg: cmd, powershell) inside any folder
+     - ``` cd C:\Users\Project ```
      - ``` git clone https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel.git ```
        
 Step 2
-- Navigate to the project directory in your local terminal (eg: cmd, powershell)
-     - eg. ``` cd C:\Users\<-project directory-> ```
+- Navigate to the project directory 
+     - eg. ``` cd C:\Users\Projects\Coding-Challenge-Jeciel ```
 
 Step 3
 - Run the following maven commands
@@ -75,8 +78,8 @@ Step 3
      - ``` mvn spring-boot:run ```
 
 Step 4
-- The application should be running now, and API is available to test. The API runs on localhost on server port 8080 (https://localhost:8080)
-- Ways to test API is by running it on your local browser or a preferred API platform (eg. Postman)
+- The application should be running now, and API is available to test. The API runs on your localhost on server port 8080 (http://localhost:8080)
+- Ways to test API is by running it on your local web browser (eg. Google, Firefox) or a preferred API platform (eg. Postman)
 
 Step 5
 -The endpoints for the api are as follows (ensure parameters latitude and longitude are input)
@@ -84,13 +87,33 @@ Step 5
    - /jeciel/poem
    - /jeciel/history
 
-Example inputs
+Example inputs and outputs (using Postman) 
    - ``` http://localhost:8080/jeciel/kelvin?latitude=36.7201600&longitude=-4.4203400 ```
+     ![endpoint1](https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel/assets/72226022/ed5dca25-29e8-46be-8310-e56f1c426060)
+
    - ``` http://localhost:8080/jeciel/poem?latitude=36.7201600&longitude=-4.4203400 ```
+     ![endpoint2](https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel/assets/72226022/9a8788fc-177e-4f5c-bb76-e2355933124a)
+
    - ``` http://localhost:8080/jeciel/history ```
+     ![endpoint3](https://github.com/Umbrella-Tech-Solutions/Coding-Challenge-Jeciel/assets/72226022/b68aff2f-9f1a-4177-b27f-bf5abe8c92ca)
+
 
 **NOTES**
-- OpenAI runs on model gpt3.5-turbo, I put my own API Key as the given API Key stopped working all of the sudden
+- OpenAI runs on model gpt3.5-turbo, updated API Key into new one (old one was revoked)
 - I have included a dockerfile in an attempt to dockerize the application. (MongoDB connection does not work currently, as it is a work in progress from me)
+- Application does not contain any front-end, so testing on API platforms is preferred
 
-✨ **Good luck!** ✨
+## :tulip: About the project
+
+- Project Build
+   - Java Version : 17
+   - Maven Project
+- Dependencies
+   - Spring Web
+   - Spring Data MongoDB
+   - Spring Boot DevTools
+- Libraries
+   - Lombok
+
+
+✨ **Thank you!** ✨
