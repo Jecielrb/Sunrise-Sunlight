@@ -5,7 +5,8 @@ import org.springframework.stereotype.Repository;
 
 import com.jeciel.challenge.history.History;
 
+
 @Repository
 public interface HistoryRepository extends MongoRepository<History, String>{
-
+	
 }
